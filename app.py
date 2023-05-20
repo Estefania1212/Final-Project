@@ -56,8 +56,8 @@ st.set_page_config(page_title='Fake product detector',layout='wide')
 st.title('Fake Product Detector using Logistic Regression')
 
 ##add image
-image=Image.open(r'C:\Users\brill\OneDrive\Documents\DScourse\Fake reviews\fakereviewsfoto.jpg')
-st.image(image,use_column_width=True)
+##image=Image.open(r'C:\Users\brill\OneDrive\Documents\DScourse\Fake reviews\fakereviewsfoto.jpg')
+##st.image(image,use_column_width=True)
 
 ##get user input
 review_text=st.text_input('Please enter your review to analyse:')
