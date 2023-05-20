@@ -1,5 +1,6 @@
 import pandas as pd
 import nltk
+nltk.download('stopwords')
 import re
 
 from tensorflow import keras
